@@ -1,0 +1,124 @@
+@import url(reset.css);
+@import url(color.css);
+@import url(typography.css);
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  padding: 20px 120px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.card {
+  padding: 1.25rem;
+  border-radius: 8px;
+}
+
+.card p {
+  max-width: 150ch;
+  padding-top: 1.25rem;
+}
+
+.header-bg {
+  background-color: var(--color-p1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.intro-bg {
+  background-color: var(--color-p2);
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.intro h1 {
+  margin-bottom: 20px;
+}
+
+.intro .card {
+  background-color: var(--color-1);
+}
+
+.sports {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.sports h2 {
+  margin-bottom: 20px;
+}
+
+.sports ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.sports .card {
+  background-color: var(--color-p2);
+}
+
+.footer-bg {
+  background-color: var(--color-2);
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__social a {
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+
+.footer__social a:hover > img {
+  transform: scale(1.1);
+}
+
+.footer p {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer p span {
+  display: block;
+  font-style: italic;
+  text-align: center;
+}

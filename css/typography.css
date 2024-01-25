@@ -1,0 +1,13 @@
+.font-1-s {
+  font: 400 0.875rem/1 "Open Sans", sans-serif;
+}
+.font-1-m,
+.font-1-m-b {
+  font: 400 1.25rem/1 "Open Sans", sans-serif;
+}
+.font-1-m-b {
+  font-weight: 700;
+}
+.font-1-l-b {
+  font: 700 2rem/1 "Open Sans", sans-serif;
+}
